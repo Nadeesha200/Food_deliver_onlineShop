@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deliveryActivity">
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="248dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/round_btn2"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="26dp"
+        app:srcCompat="@drawable/list" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/carrd" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="26dp"
+        app:srcCompat="@drawable/pwdfor" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="255dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="267dp"
+        android:text="Delivery Address"
+        android:textColor="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/rounderd_corner2"
+        android:ems="10"
+        android:hint="    Enter delivery address to want"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/darker"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="172dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="326dp"
+        android:background="@drawable/rounderd_corner2"
+        android:ems="10"
+        android:hint="   Enter here"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textColorHint="@color/darker"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="108dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="393dp"
+        android:text="  Date"
+        android:textColor="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="320dp"
+        android:background="@drawable/rounderd_corner2"
+        android:ems="10"
+        android:hint="   Add time"
+        android:inputType="time"
+        android:textColor="@color/black"
+        android:textColorHint="@color/darker"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="102dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="394dp"
+        android:text="   Time"
+        android:textColor="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="347dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="459dp"
+        android:background="@drawable/rounderd_corner2"
+        android:ems="10"
+        android:hint="    Enter product weight"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/darker"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="203dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="532dp"
+        android:text="  Product Weight"
+        android:textColor="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="652dp"
+        android:background="@drawable/rectangle_corner" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="232dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="686dp"
+        android:text="How To Delivery"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

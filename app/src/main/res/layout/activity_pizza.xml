@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pizzaActivity"
+    android:background="@drawable/home_background">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="165dp"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="234dp"
+        android:background="@drawable/rounderd_corner3" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="292dp"
+        app:srcCompat="@drawable/pizz2" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="211dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/rounderd_corner3" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="261dp"
+        app:srcCompat="@drawable/chef" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="199dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/round_btn"
+        android:text="Add to "
+        android:textColor="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profi1"
+        android:layout_width="77dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="29dp"
+        app:srcCompat="@drawable/profi" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="79dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="27dp"
+        app:srcCompat="@drawable/pwdfor" />
+
+    <ImageView
+        android:id="@+id/list1"
+        android:layout_width="83dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="17dp"
+        app:srcCompat="@drawable/list" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="305dp"
+        android:layout_height="296dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="498dp"
+        android:background="@drawable/rounderd_corner3" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="263dp"
+        android:layout_height="266dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="507dp"
+        app:srcCompat="@drawable/pizz1" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="140dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="440dp"
+        android:text="1750.00Rs"
+        android:textColor="@color/platinum"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

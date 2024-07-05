@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardActivity1"
+    android:background="@drawable/home_background2">
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="173dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/rounderd_btn4"
+        android:text="Pay"
+        android:textColor="@color/saturated"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/list" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="90dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/sharp_supervised_user_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="80dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/my_orders" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="355dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="226dp"
+        android:ems="10"
+        android:hint="Enter CVV/CVC"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="313dp"
+        android:ems="10"
+        android:hint="Enter Card Number"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="345dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="397dp"
+        android:ems="10"
+        android:hint="Enter Card Name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/darker"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="544dp"
+        app:srcCompat="@drawable/caervira" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="550dp"
+        app:srcCompat="@drawable/paypal" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="277dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="548dp"
+        app:srcCompat="@drawable/cardpay" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="347dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="620dp"
+        android:text="Pay with Credit Card"
+        android:textColor="@color/ash"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

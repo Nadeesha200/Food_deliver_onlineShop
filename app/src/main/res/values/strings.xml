@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Myfood</string>
+    <string name="logo_description">Description of your button</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="make_happy">MakeHappy</string>
+    <string name="profiActivity">Profile Activity</string>
+    <string name="enjoy_food">Enjoy Your Food</string>
+    <string name="email_hint">Enter email address</string>
+    <string name="email_label">Email</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="enter_emaill">Enter Emaill</string>
+    <string name="enter_the_password">enter the password</string>
+    <string name="registered">Registered</string>
+    <string name="signin">SignIn</string>
+    <string name="passwordd">passwordd</string>
+    <string name="passwordd_description">Description of the password field</string>
+    <string name="profi_image_description">Description of the profile image</string>
+    <string name="enjoy_your_food">Enjoy Your Food</string>
+    <string name="started">started</string>
+    <string name="enjoy_your_food_description">Description of the message "Enjoy Your Food"</string>
+
+
+</resources>
